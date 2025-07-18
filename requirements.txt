@@ -1,0 +1,9 @@
+kivy==2.3.0
+kivymd==1.2.0
+opencv-python==4.9.0.80
+mediapipe==0.10.14
+numpy>=1.24,<2.0
+sounddevice==0.4.7
+vosk==0.3.45
+Pillow>=10.0.0
+requests>=2.31.0
