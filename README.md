@@ -96,22 +96,23 @@ mefu.add_action("say_hello", lambda: print("Hello!"))
 ```
 In the menu_config:
 ```python
-menu_config = { 
-"menu": { 
-"items": [ 
-{"name": "Hello", "icon": "hand-wave", "handler": "say_hello"}, 
-{ 
-"name": "Extras", 
-"icon": "menu", 
-"children": [ 
-{"name": "Sub A", "icon": "alpha-a-box", "handler": "sub_a"}, 
-{"name": "Sub B", "icon": "alpha-b-box", "handler": "sub_b"}, 
-] 
-} 
-]
-}
+menu_config = {
+    "menu": {
+        "items": [
+            {"name": "Hello", "icon": "hand-wave", "handler": "say_hello"},
+            {
+                "name": "Extras",
+                "icon": "menu",
+                "children": [
+                    {"name": "Sub A", "icon": "alpha-a-box", "handler": "sub_a"},
+                    {"name": "Sub B", "icon": "alpha-b-box", "handler": "sub_b"},
+                ]
+            }
+        ]
+    }
 }
 ```
+
 
 ⸻
 
